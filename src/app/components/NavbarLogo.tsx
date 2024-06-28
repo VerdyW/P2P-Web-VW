@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const NavbarLogo = () => {
   return (
-        <motion.div id="Logo" className="absolute left-[50%] h-12 w-12 bg-[#363638] justify-center text-white font-bold items-center flex"
+        <motion.div id="Logo" className="absolute left-[50%] h-12 w-12 bg-[#363638] justify-center text-white font-bold items-center flex max-lg:collapse "
         variants={{
             hidden: {opacity: 0, y: -75},
             visible: {opacity: 1, y: 0}

@@ -13,7 +13,7 @@ const WhyScroll = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{once: true}}
-            transition={{ duration: 0.5, delay: 0.25 }}
+            transition={{ duration: 0.5, delay: 0.50 }}
             >
               <img src="/assets/quick-approval.jpg" alt="" className=""/>
               <h6>Quick Approval Process</h6>
@@ -28,7 +28,7 @@ const WhyScroll = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{once: true}}
-            transition={{ duration: 0.5, delay: 0.75 }}
+            transition={{ duration: 0.5, delay: 1.00 }}
             >
               <img src="/assets/low-interest.jpg" alt="" className=""/>
               <h6>Low Interest Rates</h6>
@@ -43,7 +43,7 @@ const WhyScroll = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{once: true}}
-            transition={{ duration: 0.5, delay: 1.25 }}
+            transition={{ duration: 0.5, delay: 1.50 }}
             >
               <img src="/assets/user-friendly.jpg" alt="" className=""/>
               <h6>User-Friendly Interface</h6>

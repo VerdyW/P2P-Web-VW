@@ -10,9 +10,9 @@ import { motion } from 'framer-motion'
 
 const Steps = () => {
   return (
-    <div className="grid grid-cols-[2fr_1fr_1fr] gap-10 mt-14 h-[400px] w-full mb-20">
+    <div className="grid grid-cols-[2fr_1fr_1fr] gap-10 mt-14 h-[400px] w-full mb-20 max-lg:grid-cols-1 max-lg:grid-rows-3 max-lg:h-full">
             <motion.div
-                className="flex flex-col gap-5 w-full border-2 border-white text-start justify-between p-10"
+                className="flex flex-col gap-5 w-full border-2 border-white text-start justify-between p-10 max-lg:h-full "
                 variants={{
                     hidden: {opacity: 0, y: 75},
                     visible: {opacity: 1, y: 0}
@@ -38,7 +38,7 @@ const Steps = () => {
               </div>
             </motion.div>
 
-            <motion.div className="flex flex-col gap-5 w-full border-2 border-white text-start justify-between p-10"
+            <motion.div className="flex flex-col gap-5 w-full border-2 border-white text-start justify-between p-10 max-lg:h-full"
             variants={{
                 hidden: {opacity: 0, y: 75},
                 visible: {opacity: 1, y: 0}
@@ -59,7 +59,7 @@ const Steps = () => {
               </div>
             </motion.div>
 
-            <motion.div className="flex flex-col gap-5 w-full border-2 border-white text-start justify-between p-10"
+            <motion.div className="flex flex-col gap-5 w-full border-2 border-white text-start justify-between p-10 max-lg:h-full"
             variants={{
                 hidden: {opacity: 0, y: 75},
                 visible: {opacity: 1, y: 0}
